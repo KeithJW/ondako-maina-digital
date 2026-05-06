@@ -35,9 +35,9 @@ export function Footer() {
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 text-white">Contact</h4>
           <ul className="space-y-3 text-sm text-white/80">
-            <li className="flex items-start gap-2"><Mail className="size-4 mt-0.5 shrink-0" /> info@ondakoassociates.co.ke</li>
-            <li className="flex items-start gap-2"><Phone className="size-4 mt-0.5 shrink-0" /> 0721 272 232</li>
-            <li className="flex items-start gap-2"><MapPin className="size-4 mt-0.5 shrink-0" /> Nairobi, Kenya</li>
+            <li className="flex items-start gap-2"><Mail className="size-4 mt-0.5 shrink-0" /><span>info@ondakoassociates.co.ke</span></li>
+            <li className="flex items-start gap-2"><Phone className="size-4 mt-0.5 shrink-0" /><span>0721 272 232</span></li>
+            <li className="flex items-start gap-2"><MapPin className="size-4 mt-0.5 shrink-0" /><span>Nairobi, Kenya</span></li>
           </ul>
         </div>
       </div>
